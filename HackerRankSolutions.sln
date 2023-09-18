@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRankSolutions.Mini-Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.Time Conversion", "HackerRankSolutions.Time Conversion\HackerRankSolutions.Time Conversion.csproj", "{A91BE502-DA2D-4B17-9E97-3519795F818F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.Breaking the Records", "HackerRankSolutions.Breaking the Records\HackerRankSolutions.Breaking the Records.csproj", "{FC0C7E02-7616-444A-87B3-F247944FE927}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{A91BE502-DA2D-4B17-9E97-3519795F818F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A91BE502-DA2D-4B17-9E97-3519795F818F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A91BE502-DA2D-4B17-9E97-3519795F818F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0C7E02-7616-444A-87B3-F247944FE927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0C7E02-7616-444A-87B3-F247944FE927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0C7E02-7616-444A-87B3-F247944FE927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0C7E02-7616-444A-87B3-F247944FE927}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{5F3B7B91-8F58-4EB8-AB7E-578E5C4623C4} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
 		{CE9B3772-9DB0-4271-9B6B-1BA88D704078} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
 		{A91BE502-DA2D-4B17-9E97-3519795F818F} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
+		{FC0C7E02-7616-444A-87B3-F247944FE927} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}

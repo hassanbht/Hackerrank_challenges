@@ -54,9 +54,7 @@ class Result
 class Solution
 {
     public static void Main(string[] args)
-    {
-      
-
+    {    
         string s = Console.ReadLine();
 
         string result = Result.timeConversionV2(s);
