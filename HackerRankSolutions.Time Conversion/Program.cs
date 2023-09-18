@@ -16,7 +16,7 @@ class Result
      * The function accepts STRING s as parameter.
      */
 
-    public static string timeConversion(string s)
+    public static string timeConversionV1(string s)
     {
         // Extract the hour, minutes, and seconds from the input string
         int hour = int.Parse(s.Substring(0,2));
@@ -31,7 +31,7 @@ class Result
         }
 
         // For midnight (12:00:00AM), adjust the hour to 00:00:00
-        if (s.Substring(8, 2) == "AM" && hour == 12)
+        if (isMorning && hour == 12)
         {
             hour = 0;
         }
@@ -40,6 +40,13 @@ class Result
         string formattedTime = $"{hour:D2}:{minutes:D2}:{seconds:D2}";
 
         return formattedTime;
+    }
+
+    public static string timeConversionV2(string s)
+    {
+        DateTime formattedTime = DateTime.Parse(s);
+
+        return formattedTime.ToString("HH:mm:ss");
     }
 
 }
@@ -52,7 +59,7 @@ class Solution
 
         string s = Console.ReadLine();
 
-        string result = Result.timeConversion(s);
+        string result = Result.timeConversionV2(s);
 
         Console.WriteLine(result);
     }
