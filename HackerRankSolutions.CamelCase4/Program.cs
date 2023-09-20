@@ -33,8 +33,8 @@ class Solution
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. 
           Your class should be named Solution */
 
-        CamelCaseV1();
-        Console.WriteLine("-".PadLeft(10,'-'));
+        //CamelCaseV1();
+        
         CamelCaseV2();
 
     }
