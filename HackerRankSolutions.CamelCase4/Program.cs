@@ -34,7 +34,85 @@ class Solution
           Your class should be named Solution */
 
         CamelCaseV1();
+        Console.WriteLine("-".PadLeft(10,'-'));
+        CamelCaseV2();
 
+    }
+
+    private static void CamelCaseV2()
+    {
+        List<string> initListString = new List<string>();
+        const int maxLenght = 6;
+        for (int i = 0; i < maxLenght; i++)
+        {
+            try { initListString.Add(Console.In.ReadLine()); }
+            catch (Exception ex)
+            {
+                break;
+            }
+        }
+        foreach (var item in initListString)
+        {
+            if (string.IsNullOrEmpty(item))
+                return;
+
+            var splitItem = item.Split(';');
+            if (splitItem.Length > 3) return;
+            char operation = splitItem[0][0];
+            char type = splitItem[1][0];
+            string words = splitItem[2];
+            string result = string.Empty;
+            if (operation == 'S')
+                result = SplitMethod(words, type);
+           else if (operation == 'C')
+                result = CombineMethod(words, type);
+            Console.WriteLine(result);
+        }
+
+    }
+
+    private static string CombineMethod(string words, char type)
+    {
+        string result = string.Empty, data = string.Empty;
+
+        var arrC = words.Split(' ');
+
+        foreach (var item1 in arrC)
+        {
+            data += item1.Substring(0, 1).ToUpper() + item1.Substring(1, item1.Length - 1);
+        }
+        if (type == 'V' || type == 'M')
+        {
+            data = data.Substring(0, 1).ToLower() + data.Substring(1, data.Length - 1);
+        }
+
+        if (type == 'M')
+            data = data + "()";
+
+        result = data;
+        return result;
+    }
+
+    private static string SplitMethod(string words, char type)
+    {
+        string result = string.Empty;
+        string data = string.Empty;
+        foreach (char key in words)
+        {
+            data = key.ToString();
+            if (char.IsUpper(key))
+            {
+                data = " " + char.ToLower(key).ToString();
+            }
+            result += data;
+
+            if (type == 'M' && words.Contains("()"))
+                result = result.Replace("()", "");
+
+            if (type == 'C')
+                result = result.Trim();
+        }
+        return result;
     }
 
     private static void CamelCaseV1()
@@ -81,7 +159,7 @@ class Solution
             }
         }
 
-        return string.Join("", wordList) + (type == 'M'  ? "()" : "");
+        return string.Join("", wordList) + (type == 'M' ? "()" : "");
 
     }
 
