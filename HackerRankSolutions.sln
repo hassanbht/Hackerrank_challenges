@@ -9,9 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week-one", "week-one", "{B6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRankSolutions.Mini-Max Sum", "HackerRankSolutions.Mini-Max Sum\HackerRankSolutions.Mini-Max Sum.csproj", "{CE9B3772-9DB0-4271-9B6B-1BA88D704078}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.Time Conversion", "HackerRankSolutions.Time Conversion\HackerRankSolutions.Time Conversion.csproj", "{A91BE502-DA2D-4B17-9E97-3519795F818F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRankSolutions.Time Conversion", "HackerRankSolutions.Time Conversion\HackerRankSolutions.Time Conversion.csproj", "{A91BE502-DA2D-4B17-9E97-3519795F818F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.Breaking the Records", "HackerRankSolutions.Breaking the Records\HackerRankSolutions.Breaking the Records.csproj", "{FC0C7E02-7616-444A-87B3-F247944FE927}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRankSolutions.Breaking the Records", "HackerRankSolutions.Breaking the Records\HackerRankSolutions.Breaking the Records.csproj", "{FC0C7E02-7616-444A-87B3-F247944FE927}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRankSolutions.CamelCase4", "HackerRankSolutions.CamelCase4\HackerRankSolutions.CamelCase4.csproj", "{00842AFD-487F-41A8-BC54-879C65A3EE75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.DivisibleSumPairs", "HackerRankSolutions.DivisibleSumPairs\HackerRankSolutions.DivisibleSumPairs.csproj", "{29308B1A-087C-41C5-80B7-A20590388399}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{FC0C7E02-7616-444A-87B3-F247944FE927}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC0C7E02-7616-444A-87B3-F247944FE927}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC0C7E02-7616-444A-87B3-F247944FE927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00842AFD-487F-41A8-BC54-879C65A3EE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00842AFD-487F-41A8-BC54-879C65A3EE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00842AFD-487F-41A8-BC54-879C65A3EE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00842AFD-487F-41A8-BC54-879C65A3EE75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29308B1A-087C-41C5-80B7-A20590388399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29308B1A-087C-41C5-80B7-A20590388399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29308B1A-087C-41C5-80B7-A20590388399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29308B1A-087C-41C5-80B7-A20590388399}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +56,8 @@ Global
 		{CE9B3772-9DB0-4271-9B6B-1BA88D704078} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
 		{A91BE502-DA2D-4B17-9E97-3519795F818F} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
 		{FC0C7E02-7616-444A-87B3-F247944FE927} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
+		{00842AFD-487F-41A8-BC54-879C65A3EE75} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
+		{29308B1A-087C-41C5-80B7-A20590388399} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}
