@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRankSolutions.Breakin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRankSolutions.CamelCase4", "HackerRankSolutions.CamelCase4\HackerRankSolutions.CamelCase4.csproj", "{00842AFD-487F-41A8-BC54-879C65A3EE75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.DivisibleSumPairs", "HackerRankSolutions.DivisibleSumPairs\HackerRankSolutions.DivisibleSumPairs.csproj", "{29308B1A-087C-41C5-80B7-A20590388399}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRankSolutions.DivisibleSumPairs", "HackerRankSolutions.DivisibleSumPairs\HackerRankSolutions.DivisibleSumPairs.csproj", "{29308B1A-087C-41C5-80B7-A20590388399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions.SparseArrays", "HackerRankSolutions.SparseArrays\HackerRankSolutions.SparseArrays.csproj", "{8AD4B57B-84AE-427F-A32A-A15AA857E152}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{29308B1A-087C-41C5-80B7-A20590388399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29308B1A-087C-41C5-80B7-A20590388399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29308B1A-087C-41C5-80B7-A20590388399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD4B57B-84AE-427F-A32A-A15AA857E152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD4B57B-84AE-427F-A32A-A15AA857E152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD4B57B-84AE-427F-A32A-A15AA857E152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD4B57B-84AE-427F-A32A-A15AA857E152}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{FC0C7E02-7616-444A-87B3-F247944FE927} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
 		{00842AFD-487F-41A8-BC54-879C65A3EE75} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
 		{29308B1A-087C-41C5-80B7-A20590388399} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
+		{8AD4B57B-84AE-427F-A32A-A15AA857E152} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}

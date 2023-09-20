@@ -1,17 +1,8 @@
-﻿using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
-
+﻿
+/*
+ Given an array of integers and a positive integer ,
+ determine the number of (i,j)  pairs where i<j and  ar[i]+ar[j]  is divisible by k.
+ */
 class Result
 {
 
@@ -25,12 +16,12 @@ class Result
      *  3. INTEGER_ARRAY ar
      */
 
-    public static int divisibleSumPairs(int n, int k, List<int> ar)
+public static int divisibleSumPairs(int n, int k, List<int> ar)
     {
         int count = 0;
-        for(int i = 0; i < n;i++)
+        for (int i = 0; i < n; i++)
         {
-            for(int j = i+1;j<n;j++)
+            for (int j = i + 1; j < n; j++)
             {
                 if ((ar[i] + ar[j]) % k == 0)
                     count++;
@@ -44,7 +35,7 @@ class Result
 class Solution
 {
     public static void Main(string[] args)
-    {      
+    {
         string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
 
         int n = Convert.ToInt32(firstMultipleInput[0]);
