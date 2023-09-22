@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.Lonely Integer", "Wee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.GradingStudents", "Week2.GradingStudents\Week2.GradingStudents.csproj", "{ACF24BDB-F4C2-4765-BE7F-87AB4E5DEDF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.Flippingbits", "Week2.Flippingbits\Week2.Flippingbits.csproj", "{2433E9D8-D406-434C-8B5C-67B9966CA20C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{ACF24BDB-F4C2-4765-BE7F-87AB4E5DEDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACF24BDB-F4C2-4765-BE7F-87AB4E5DEDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACF24BDB-F4C2-4765-BE7F-87AB4E5DEDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2433E9D8-D406-434C-8B5C-67B9966CA20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2433E9D8-D406-434C-8B5C-67B9966CA20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2433E9D8-D406-434C-8B5C-67B9966CA20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2433E9D8-D406-434C-8B5C-67B9966CA20C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{8AD4B57B-84AE-427F-A32A-A15AA857E152} = {B62EBCF0-F3EE-49C4-BD1A-B03ABA9B6814}
 		{576AFED1-C3FC-4EFB-8E6B-2C7768FA0ABF} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
 		{ACF24BDB-F4C2-4765-BE7F-87AB4E5DEDF4} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
+		{2433E9D8-D406-434C-8B5C-67B9966CA20C} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}
