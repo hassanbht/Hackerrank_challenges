@@ -17,9 +17,6 @@ class Result
     public static int lonelyinteger(List<int> a)
     {
         int result = 0;
-        var t = new List<int>();
-        t.AddRange(a.Distinct());
-        var r = a.Except(t);
         foreach (int num in a)
         {
             result ^= num;
