@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.DiagonalDifference", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.CountingSort1", "Week2.CountingSort1\Week2.CountingSort1.csproj", "{C10502A6-0009-4983-9F5D-FDC0AF6F0F17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.CountingValleys", "Week2.CountingValleys\Week2.CountingValleys.csproj", "{4EDAB4E1-B935-4CD0-ADCF-5AC7394CA322}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{C10502A6-0009-4983-9F5D-FDC0AF6F0F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C10502A6-0009-4983-9F5D-FDC0AF6F0F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C10502A6-0009-4983-9F5D-FDC0AF6F0F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EDAB4E1-B935-4CD0-ADCF-5AC7394CA322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EDAB4E1-B935-4CD0-ADCF-5AC7394CA322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EDAB4E1-B935-4CD0-ADCF-5AC7394CA322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EDAB4E1-B935-4CD0-ADCF-5AC7394CA322}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{2433E9D8-D406-434C-8B5C-67B9966CA20C} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
 		{856041A5-4CB4-4F28-A15C-CD1557162BFA} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
 		{C10502A6-0009-4983-9F5D-FDC0AF6F0F17} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
+		{4EDAB4E1-B935-4CD0-ADCF-5AC7394CA322} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}
