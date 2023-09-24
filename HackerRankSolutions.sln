@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "week1.SparseArrays", "Hacke
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week-two", "week-two", "{73C4EA67-F800-452F-A783-2D239EE5A9CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.Lonely Integer", "Week2.Lonely Integer\Week2.Lonely Integer.csproj", "{576AFED1-C3FC-4EFB-8E6B-2C7768FA0ABF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.LonelyInteger", "Week2.Lonely Integer\Week2.LonelyInteger.csproj", "{576AFED1-C3FC-4EFB-8E6B-2C7768FA0ABF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.GradingStudents", "Week2.GradingStudents\Week2.GradingStudents.csproj", "{ACF24BDB-F4C2-4765-BE7F-87AB4E5DEDF4}"
 EndProject
@@ -29,11 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.Flippingbits", "Week2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.DiagonalDifference", "Week2.DiagonalDifference\Week2.DiagonalDifference.csproj", "{856041A5-4CB4-4F28-A15C-CD1557162BFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.CountingSort1", "Week2.CountingSort1\Week2.CountingSort1.csproj", "{C10502A6-0009-4983-9F5D-FDC0AF6F0F17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.CountingSort1", "Week2.CountingSort1\Week2.CountingSort1.csproj", "{C10502A6-0009-4983-9F5D-FDC0AF6F0F17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.CountingValleys", "Week2.CountingValleys\Week2.CountingValleys.csproj", "{4EDAB4E1-B935-4CD0-ADCF-5AC7394CA322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.CountingValleys", "Week2.CountingValleys\Week2.CountingValleys.csproj", "{4EDAB4E1-B935-4CD0-ADCF-5AC7394CA322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.Pangrams", "Week2.Pangrams\Week2.Pangrams.csproj", "{15759237-B5E6-4043-9321-4312CD329C7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.Pangrams", "Week2.Pangrams\Week2.Pangrams.csproj", "{15759237-B5E6-4043-9321-4312CD329C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.MarsExploration", "Week2.MarsExploration\Week2.MarsExploration.csproj", "{4675BAF7-6E1E-48FA-9031-5969DDF6561B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,10 @@ Global
 		{15759237-B5E6-4043-9321-4312CD329C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15759237-B5E6-4043-9321-4312CD329C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15759237-B5E6-4043-9321-4312CD329C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4675BAF7-6E1E-48FA-9031-5969DDF6561B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4675BAF7-6E1E-48FA-9031-5969DDF6561B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4675BAF7-6E1E-48FA-9031-5969DDF6561B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4675BAF7-6E1E-48FA-9031-5969DDF6561B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +122,7 @@ Global
 		{C10502A6-0009-4983-9F5D-FDC0AF6F0F17} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
 		{4EDAB4E1-B935-4CD0-ADCF-5AC7394CA322} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
 		{15759237-B5E6-4043-9321-4312CD329C7F} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
+		{4675BAF7-6E1E-48FA-9031-5969DDF6561B} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}
