@@ -37,6 +37,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.Pangrams", "Week2.Pan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.MarsExploration", "Week2.MarsExploration\Week2.MarsExploration.csproj", "{4675BAF7-6E1E-48FA-9031-5969DDF6561B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week-three", "week-three", "{83BE84FB-93C7-447C-95C7-7A1FE4D85456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3.PermutingTwoArrays", "Week3.PermutingTwoArrays\Week3.PermutingTwoArrays.csproj", "{E8C1054B-03FC-435E-A752-4B971CD2E8F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +107,10 @@ Global
 		{4675BAF7-6E1E-48FA-9031-5969DDF6561B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4675BAF7-6E1E-48FA-9031-5969DDF6561B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4675BAF7-6E1E-48FA-9031-5969DDF6561B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C1054B-03FC-435E-A752-4B971CD2E8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C1054B-03FC-435E-A752-4B971CD2E8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C1054B-03FC-435E-A752-4B971CD2E8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C1054B-03FC-435E-A752-4B971CD2E8F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +131,7 @@ Global
 		{4EDAB4E1-B935-4CD0-ADCF-5AC7394CA322} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
 		{15759237-B5E6-4043-9321-4312CD329C7F} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
 		{4675BAF7-6E1E-48FA-9031-5969DDF6561B} = {73C4EA67-F800-452F-A783-2D239EE5A9CD}
+		{E8C1054B-03FC-435E-A752-4B971CD2E8F8} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}
