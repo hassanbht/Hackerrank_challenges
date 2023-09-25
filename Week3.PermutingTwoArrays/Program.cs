@@ -1,4 +1,11 @@
-﻿class Result
+﻿/*
+ In this HackerRank Permuting Two Arrays problem solution there are two n element arrays of integers A and B.
+we need to permute them into some A' and B' such that the relation A'[i] + B'[i] >= k holds
+for all I where 0 <= I < n. and there are q queries consisting of A, B, and k.
+for each query return YES if some permutation A'.B' satisfying the relation exists.
+otherwise, return NO.
+*/
+class Result
 {
 
     /*
@@ -11,12 +18,12 @@
      *  3. INTEGER_ARRAY B
      */
 
-    public static string twoArrays(int k, List<int> A, List<int> B)
+public static string twoArrays(int k, List<int> A, List<int> B)
     {
         A.Sort();
         B.Sort();
         B.Reverse();
-        for(int i = 0; i < k; i++)
+        for (int i = 0; i < A.Count; i++)
         {
             if (A[i] + B[i] < k)
                 return "NO";
