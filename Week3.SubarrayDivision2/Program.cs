@@ -49,13 +49,11 @@ class Result
     public static int birthdayWithLINQ(List<int> s, int d, int m)
     {
         int count = 0;
-
         for (int i = 0; i <= s.Count - m; i++)
         {
             if (s.GetRange(i, m).Sum() == d)
                 count++;            
         }
-
         return count;
     }
 
