@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3.XORStrings3", "Week3.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3.SalesbyMatch", "Week3.SalesbyMatch\Week3.SalesbyMatch.csproj", "{3CF59E7F-9CCC-44C3-9393-62BC48528E15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3.MigratoryBirds", "Week3.MigratoryBirds\Week3.MigratoryBirds.csproj", "{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{3CF59E7F-9CCC-44C3-9393-62BC48528E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CF59E7F-9CCC-44C3-9393-62BC48528E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CF59E7F-9CCC-44C3-9393-62BC48528E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +159,7 @@ Global
 		{E0876630-FC19-4FE5-A1A2-0ED168F0B046} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 		{DB14C988-5052-43C4-A701-5D97EEDAE586} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 		{3CF59E7F-9CCC-44C3-9393-62BC48528E15} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
+		{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}

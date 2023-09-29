@@ -21,8 +21,7 @@ class Result
     public static int sockMerchant(int n, List<int> ar)
     {
         int countPairs = 0;
-        List<int> sockCounts = new List<int>();
-        
+        List<int> sockCounts = new List<int>();        
         foreach (int i in ar)
         {
             if(sockCounts.Contains(i))
