@@ -45,9 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3.SubarrayDivision2", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3.XORStrings3", "Week3.XORStrings3\Week3.XORStrings3.csproj", "{DB14C988-5052-43C4-A701-5D97EEDAE586}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3.SalesbyMatch", "Week3.SalesbyMatch\Week3.SalesbyMatch.csproj", "{3CF59E7F-9CCC-44C3-9393-62BC48528E15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3.SalesbyMatch", "Week3.SalesbyMatch\Week3.SalesbyMatch.csproj", "{3CF59E7F-9CCC-44C3-9393-62BC48528E15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3.MigratoryBirds", "Week3.MigratoryBirds\Week3.MigratoryBirds.csproj", "{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3.MigratoryBirds", "Week3.MigratoryBirds\Week3.MigratoryBirds.csproj", "{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3.Maximum _Perimeter_Triangle", "Week3.Maximum _Perimeter_Triangle\Week3.Maximum _Perimeter_Triangle.csproj", "{08CE43CA-6235-4441-B229-792D67ED0917}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CE43CA-6235-4441-B229-792D67ED0917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CE43CA-6235-4441-B229-792D67ED0917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CE43CA-6235-4441-B229-792D67ED0917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CE43CA-6235-4441-B229-792D67ED0917}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{DB14C988-5052-43C4-A701-5D97EEDAE586} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 		{3CF59E7F-9CCC-44C3-9393-62BC48528E15} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 		{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
+		{08CE43CA-6235-4441-B229-792D67ED0917} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}
