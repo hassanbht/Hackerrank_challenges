@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3.Maximum _Perimeter_Tr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3.Zig_Zag_Sequence", "Week3.Zig_Zag_Sequence\Week3.Zig_Zag_Sequence.csproj", "{80C25E52-943C-4145-A658-0890FAD50E9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3.Drawing_Book", "Week3.Drawing_Book\Week3.Drawing_Book.csproj", "{FC455FE8-9954-4D52-9907-A6CC6D5F77F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{80C25E52-943C-4145-A658-0890FAD50E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80C25E52-943C-4145-A658-0890FAD50E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80C25E52-943C-4145-A658-0890FAD50E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC455FE8-9954-4D52-9907-A6CC6D5F77F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC455FE8-9954-4D52-9907-A6CC6D5F77F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC455FE8-9954-4D52-9907-A6CC6D5F77F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC455FE8-9954-4D52-9907-A6CC6D5F77F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,6 +180,7 @@ Global
 		{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 		{08CE43CA-6235-4441-B229-792D67ED0917} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 		{80C25E52-943C-4145-A658-0890FAD50E9A} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
+		{FC455FE8-9954-4D52-9907-A6CC6D5F77F9} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}
