@@ -49,11 +49,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3.SalesbyMatch", "Week3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3.MigratoryBirds", "Week3.MigratoryBirds\Week3.MigratoryBirds.csproj", "{8C5E7097-C232-4E1D-9CA0-95CCB84E70F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3.Maximum _Perimeter_Triangle", "Week3.Maximum _Perimeter_Triangle\Week3.Maximum _Perimeter_Triangle.csproj", "{08CE43CA-6235-4441-B229-792D67ED0917}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3.Maximum _Perimeter_Triangle", "Week3.Maximum _Perimeter_Triangle\Week3.Maximum _Perimeter_Triangle.csproj", "{08CE43CA-6235-4441-B229-792D67ED0917}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3.Zig_Zag_Sequence", "Week3.Zig_Zag_Sequence\Week3.Zig_Zag_Sequence.csproj", "{80C25E52-943C-4145-A658-0890FAD50E9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3.Zig_Zag_Sequence", "Week3.Zig_Zag_Sequence\Week3.Zig_Zag_Sequence.csproj", "{80C25E52-943C-4145-A658-0890FAD50E9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3.Drawing_Book", "Week3.Drawing_Book\Week3.Drawing_Book.csproj", "{FC455FE8-9954-4D52-9907-A6CC6D5F77F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3.Drawing_Book", "Week3.Drawing_Book\Week3.Drawing_Book.csproj", "{FC455FE8-9954-4D52-9907-A6CC6D5F77F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week-four", "week-four", "{3483910B-E5ED-448E-B7F3-3DE7C8EC4292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4.Picking_Numbers", "Week4.Picking_Numbers\Week4.Picking_Numbers.csproj", "{49389B95-2CA3-431D-BE87-00E517B0042C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +157,10 @@ Global
 		{FC455FE8-9954-4D52-9907-A6CC6D5F77F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC455FE8-9954-4D52-9907-A6CC6D5F77F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC455FE8-9954-4D52-9907-A6CC6D5F77F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49389B95-2CA3-431D-BE87-00E517B0042C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49389B95-2CA3-431D-BE87-00E517B0042C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49389B95-2CA3-431D-BE87-00E517B0042C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49389B95-2CA3-431D-BE87-00E517B0042C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +189,7 @@ Global
 		{08CE43CA-6235-4441-B229-792D67ED0917} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 		{80C25E52-943C-4145-A658-0890FAD50E9A} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 		{FC455FE8-9954-4D52-9907-A6CC6D5F77F9} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
+		{49389B95-2CA3-431D-BE87-00E517B0042C} = {3483910B-E5ED-448E-B7F3-3DE7C8EC4292}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}
