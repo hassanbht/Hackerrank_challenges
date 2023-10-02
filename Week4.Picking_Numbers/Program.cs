@@ -21,12 +21,10 @@ class Result
      */
 
     public static int pickingNumbers(List<int> a)
-    {
-
-        int n = a.Count;
+    {        
         int currentLength = 1, maxLength = 0, pos = 0;
         a.Sort();
-        for (int i = 1; i < n; i++)
+        for (int i = 1; i < a.Count; i++)
         {
             if ((a[i] - a[pos]) <= 1)
             {
@@ -34,7 +32,6 @@ class Result
             }
             else
             {
-
                 maxLength = Math.Max(currentLength, maxLength);
                 pos = i;
                 currentLength = 1;
