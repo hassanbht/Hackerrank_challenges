@@ -57,9 +57,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3.Drawing_Book", "Week3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week-four", "week-four", "{3483910B-E5ED-448E-B7F3-3DE7C8EC4292}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4.Picking_Numbers", "Week4.Picking_Numbers\Week4.Picking_Numbers.csproj", "{49389B95-2CA3-431D-BE87-00E517B0042C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4.Picking_Numbers", "Week4.Picking_Numbers\Week4.Picking_Numbers.csproj", "{49389B95-2CA3-431D-BE87-00E517B0042C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4.Left_Rotation", "Week4.Left_Rotation\Week4.Left_Rotation.csproj", "{6CA3FD3D-659F-4A2F-8DE1-B791C790F66D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4.Left_Rotation", "Week4.Left_Rotation\Week4.Left_Rotation.csproj", "{6CA3FD3D-659F-4A2F-8DE1-B791C790F66D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4.Number_Line_Jumps", "Week4.Number_Line_Jumps\Week4.Number_Line_Jumps.csproj", "{2E633873-501B-44A7-8E29-348B3282EF50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -167,6 +169,10 @@ Global
 		{6CA3FD3D-659F-4A2F-8DE1-B791C790F66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CA3FD3D-659F-4A2F-8DE1-B791C790F66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CA3FD3D-659F-4A2F-8DE1-B791C790F66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E633873-501B-44A7-8E29-348B3282EF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E633873-501B-44A7-8E29-348B3282EF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E633873-501B-44A7-8E29-348B3282EF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E633873-501B-44A7-8E29-348B3282EF50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -197,6 +203,7 @@ Global
 		{FC455FE8-9954-4D52-9907-A6CC6D5F77F9} = {83BE84FB-93C7-447C-95C7-7A1FE4D85456}
 		{49389B95-2CA3-431D-BE87-00E517B0042C} = {3483910B-E5ED-448E-B7F3-3DE7C8EC4292}
 		{6CA3FD3D-659F-4A2F-8DE1-B791C790F66D} = {3483910B-E5ED-448E-B7F3-3DE7C8EC4292}
+		{2E633873-501B-44A7-8E29-348B3282EF50} = {3483910B-E5ED-448E-B7F3-3DE7C8EC4292}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}

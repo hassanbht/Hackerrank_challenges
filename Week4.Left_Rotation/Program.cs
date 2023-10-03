@@ -29,7 +29,19 @@ class Result
         return listSkip;
     }
 
+    public static List<int> rotateLeft(int d, List<int> arr)
+    {
+        int n = arr.Count;
+        int[] rotatedArr = new int[n];
 
+        for (int i = 0; i < n; i++)
+        {
+            int newIndex = (i + n - d) % n;
+            rotatedArr[newIndex] = arr[i];
+        }
+
+        return rotatedArr.ToList();
+    }
 
 }
 
