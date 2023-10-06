@@ -10,19 +10,6 @@ int arr[n]: an array of integers
 Returns
 int: the minimum absolute difference found
 */
-using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
 
 class Result
 {
@@ -47,7 +34,7 @@ class Result
         for (int i = 1; i < arr.Count; i++)
         {
             int diff = Math.Abs(arr[i] - arr[i - 1]);
-            minDiff=Math.Min(diff, minDiff);           
+            minDiff = Math.Min(diff, minDiff);
         }
         return minDiff;
     }
