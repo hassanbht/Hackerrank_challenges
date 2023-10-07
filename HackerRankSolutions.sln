@@ -75,6 +75,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4.Caesar_Cipher", "Week
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4.Max_Min", "Week4.Max_Min\Week4.Max_Min.csproj", "{634B6229-7C68-4A7A-BD73-88F008E3D7BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4.Strong_Password", "Week4.Strong_Password\Week4.Strong_Password.csproj", "{074E84D5-73CA-4D78-A704-0AA8661AC668}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +211,10 @@ Global
 		{634B6229-7C68-4A7A-BD73-88F008E3D7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{634B6229-7C68-4A7A-BD73-88F008E3D7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{634B6229-7C68-4A7A-BD73-88F008E3D7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074E84D5-73CA-4D78-A704-0AA8661AC668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074E84D5-73CA-4D78-A704-0AA8661AC668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074E84D5-73CA-4D78-A704-0AA8661AC668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074E84D5-73CA-4D78-A704-0AA8661AC668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -246,6 +252,7 @@ Global
 		{C6FB092D-2251-4C22-9433-B5FB718CC675} = {3483910B-E5ED-448E-B7F3-3DE7C8EC4292}
 		{9B13B308-1FA1-406C-A5DD-E0E254E96681} = {3483910B-E5ED-448E-B7F3-3DE7C8EC4292}
 		{634B6229-7C68-4A7A-BD73-88F008E3D7BF} = {3483910B-E5ED-448E-B7F3-3DE7C8EC4292}
+		{074E84D5-73CA-4D78-A704-0AA8661AC668} = {3483910B-E5ED-448E-B7F3-3DE7C8EC4292}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}
