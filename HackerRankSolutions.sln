@@ -73,13 +73,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4.Minimum_Absolute_Diff
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4.Caesar_Cipher", "Week4.Caesar_Cipher\Week4.Caesar_Cipher.csproj", "{9B13B308-1FA1-406C-A5DD-E0E254E96681}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week5.Max_Min", "Week4.Max_Min\Week5.Max_Min.csproj", "{634B6229-7C68-4A7A-BD73-88F008E3D7BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week5.Max_Min", "Week4.Max_Min\Week5.Max_Min.csproj", "{634B6229-7C68-4A7A-BD73-88F008E3D7BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week5.Strong_Password", "Week4.Strong_Password\Week5.Strong_Password.csproj", "{074E84D5-73CA-4D78-A704-0AA8661AC668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week5.Strong_Password", "Week4.Strong_Password\Week5.Strong_Password.csproj", "{074E84D5-73CA-4D78-A704-0AA8661AC668}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week-five", "week-five", "{C5F0CC48-F750-422F-8545-6FB3EEF4ACEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week5.Dynamic_Array", "Week5.Dynamic_Array\Week5.Dynamic_Array.csproj", "{EEA775B7-42A5-4D13-B63C-57EDB6F8FB0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week5.Dynamic_Array", "Week5.Dynamic_Array\Week5.Dynamic_Array.csproj", "{EEA775B7-42A5-4D13-B63C-57EDB6F8FB0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missing_Numbers", "Missing_Numbers\Missing_Numbers.csproj", "{550B696A-1355-4B38-BFA3-5AC29E659088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -223,6 +225,10 @@ Global
 		{EEA775B7-42A5-4D13-B63C-57EDB6F8FB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEA775B7-42A5-4D13-B63C-57EDB6F8FB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEA775B7-42A5-4D13-B63C-57EDB6F8FB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550B696A-1355-4B38-BFA3-5AC29E659088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550B696A-1355-4B38-BFA3-5AC29E659088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550B696A-1355-4B38-BFA3-5AC29E659088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550B696A-1355-4B38-BFA3-5AC29E659088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -262,6 +268,7 @@ Global
 		{634B6229-7C68-4A7A-BD73-88F008E3D7BF} = {C5F0CC48-F750-422F-8545-6FB3EEF4ACEF}
 		{074E84D5-73CA-4D78-A704-0AA8661AC668} = {C5F0CC48-F750-422F-8545-6FB3EEF4ACEF}
 		{EEA775B7-42A5-4D13-B63C-57EDB6F8FB0F} = {C5F0CC48-F750-422F-8545-6FB3EEF4ACEF}
+		{550B696A-1355-4B38-BFA3-5AC29E659088} = {C5F0CC48-F750-422F-8545-6FB3EEF4ACEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}
