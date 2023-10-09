@@ -59,13 +59,13 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        int n = Convert.ToInt32(Console.ReadLine().Trim());
+        int n = Convert.ToInt32(Console.ReadLine()!.Trim());
 
-        List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+        List<int> arr = Console.ReadLine()!.TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
-        int m = Convert.ToInt32(Console.ReadLine().Trim());
+        int m = Convert.ToInt32(Console.ReadLine()!.Trim());
 
-        List<int> brr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(brrTemp => Convert.ToInt32(brrTemp)).ToList();
+        List<int> brr = Console.ReadLine()!.TrimEnd().Split(' ').ToList().Select(brrTemp => Convert.ToInt32(brrTemp)).ToList();
 
         List<int> result = Result.missingNumbers(arr, brr);
 

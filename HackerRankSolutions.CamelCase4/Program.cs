@@ -45,8 +45,8 @@ class Solution
         const int maxLenght = 6;
         for (int i = 0; i < maxLenght; i++)
         {
-            try { initListString.Add(Console.In.ReadLine()); }
-            catch (Exception ex)
+            try { initListString.Add(Console.In.ReadLine()!); }
+            catch 
             {
                 break;
             }

@@ -63,11 +63,11 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        int n = Convert.ToInt32(Console.ReadLine().Trim());
+        int n = Convert.ToInt32(Console.ReadLine()!.Trim());
 
-        List<int> s = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(sTemp => Convert.ToInt32(sTemp)).ToList();
+        List<int> s = Console.ReadLine()!.TrimEnd().Split(' ').ToList().Select(sTemp => Convert.ToInt32(sTemp)).ToList();
 
-        string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
+        string[] firstMultipleInput = Console.ReadLine()!.TrimEnd().Split(' ');
 
         int d = Convert.ToInt32(firstMultipleInput[0]);
 

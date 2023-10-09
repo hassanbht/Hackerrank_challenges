@@ -67,9 +67,9 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        int n = Convert.ToInt32(Console.ReadLine().Trim());
+        int n = Convert.ToInt32(Console.ReadLine()!.Trim());
 
-        string password = Console.ReadLine();
+        string password = Console.ReadLine()!;
 
         int answer = Result.minimumNumber(n, password);
 

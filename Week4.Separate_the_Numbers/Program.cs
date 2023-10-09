@@ -52,11 +52,11 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        int q = Convert.ToInt32(Console.ReadLine().Trim());
+        int q = Convert.ToInt32(Console.ReadLine()!.Trim());
 
         for (int qItr = 0; qItr < q; qItr++)
         {
-            string s = Console.ReadLine();
+            string s = Console.ReadLine()!;
 
             Result.separateNumbers(s);
         }
