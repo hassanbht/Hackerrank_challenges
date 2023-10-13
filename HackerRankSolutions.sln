@@ -85,6 +85,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Missing_Numbers", "Missing_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The_Full_Counting_Sort", "The_Full_Counting_Sort\The_Full_Counting_Sort.csproj", "{9F47225D-4A91-43B0-A36C-77E6FCA26872}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grid_Challenge", "Grid_Challenge\Grid_Challenge.csproj", "{90324C2C-BD99-4553-9A53-EEEDC5571538}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -235,6 +237,10 @@ Global
 		{9F47225D-4A91-43B0-A36C-77E6FCA26872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F47225D-4A91-43B0-A36C-77E6FCA26872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F47225D-4A91-43B0-A36C-77E6FCA26872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90324C2C-BD99-4553-9A53-EEEDC5571538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90324C2C-BD99-4553-9A53-EEEDC5571538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90324C2C-BD99-4553-9A53-EEEDC5571538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90324C2C-BD99-4553-9A53-EEEDC5571538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -276,6 +282,7 @@ Global
 		{EEA775B7-42A5-4D13-B63C-57EDB6F8FB0F} = {C5F0CC48-F750-422F-8545-6FB3EEF4ACEF}
 		{550B696A-1355-4B38-BFA3-5AC29E659088} = {C5F0CC48-F750-422F-8545-6FB3EEF4ACEF}
 		{9F47225D-4A91-43B0-A36C-77E6FCA26872} = {C5F0CC48-F750-422F-8545-6FB3EEF4ACEF}
+		{90324C2C-BD99-4553-9A53-EEEDC5571538} = {C5F0CC48-F750-422F-8545-6FB3EEF4ACEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58ECECC-2A0A-4625-8F8B-77ACE9F54D46}
