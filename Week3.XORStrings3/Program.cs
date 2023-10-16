@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Solution
+namespace Week3.XORStrings3
 {
     class Solution
     {
@@ -16,7 +16,7 @@ namespace Solution
         {
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < s.Length; i++)
-                sb.Append((s[i] ^ t[i]));
+                sb.Append(s[i] ^ t[i]);
             return sb.ToString();
         }
 
