@@ -79,9 +79,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week5.Grid_Challenge", "Gri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week5.Sansa_and_XOR", "Sansa_and_XOR\Week5.Sansa_and_XOR.csproj", "{A770A953-C9F1-4C15-B9F1-FAC14917CD04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6.sherlock_and_array", "Week6.sherlock_and_array\Week6.sherlock_and_array.csproj", "{ADF22BC0-1817-4598-8835-A2737EDA2AE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6.sherlock_and_array", "Week6.sherlock_and_array\Week6.sherlock_and_array.csproj", "{ADF22BC0-1817-4598-8835-A2737EDA2AE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6.Misère_Nim", "Week6.Misère_Nim\Week6.Misère_Nim.csproj", "{EEAC0282-6209-4BC7-8EA9-1B52AE55AD52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6.Misère_Nim", "Week6.Misère_Nim\Week6.Misère_Nim.csproj", "{EEAC0282-6209-4BC7-8EA9-1B52AE55AD52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6.Gaming_Array_1", "Week6.Gaming_Array_1\Week6.Gaming_Array_1.csproj", "{62472552-1BB4-4878-94D6-47D7B04793DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,10 @@ Global
 		{EEAC0282-6209-4BC7-8EA9-1B52AE55AD52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEAC0282-6209-4BC7-8EA9-1B52AE55AD52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEAC0282-6209-4BC7-8EA9-1B52AE55AD52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62472552-1BB4-4878-94D6-47D7B04793DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62472552-1BB4-4878-94D6-47D7B04793DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62472552-1BB4-4878-94D6-47D7B04793DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62472552-1BB4-4878-94D6-47D7B04793DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
