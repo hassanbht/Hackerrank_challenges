@@ -70,13 +70,13 @@ class Solution
     public static void Main(string[] args)
     {
 
-        int g = Convert.ToInt32(Console.ReadLine().Trim());
+        int g = Convert.ToInt32(Console.ReadLine()!.Trim());
 
         for (int gItr = 0; gItr < g; gItr++)
         {
-            int arrCount = Convert.ToInt32(Console.ReadLine().Trim());
+            int arrCount = Convert.ToInt32(Console.ReadLine()!.Trim());
 
-            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+            List<int> arr = Console.ReadLine()!.TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
             string result = Result.gamingArray(arr);
 

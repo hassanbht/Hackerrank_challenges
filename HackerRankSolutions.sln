@@ -83,7 +83,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6.sherlock_and_array", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6.Misère_Nim", "Week6.Misère_Nim\Week6.Misère_Nim.csproj", "{EEAC0282-6209-4BC7-8EA9-1B52AE55AD52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6.Gaming_Array_1", "Week6.Gaming_Array_1\Week6.Gaming_Array_1.csproj", "{62472552-1BB4-4878-94D6-47D7B04793DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6.Gaming_Array_1", "Week6.Gaming_Array_1\Week6.Gaming_Array_1.csproj", "{62472552-1BB4-4878-94D6-47D7B04793DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week.Forming_a_Magic_Square", "Week.Forming_a_Magic_Square\Week.Forming_a_Magic_Square.csproj", "{757A3958-44FC-4969-A261-76098DEA8989}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{62472552-1BB4-4878-94D6-47D7B04793DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62472552-1BB4-4878-94D6-47D7B04793DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62472552-1BB4-4878-94D6-47D7B04793DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757A3958-44FC-4969-A261-76098DEA8989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757A3958-44FC-4969-A261-76098DEA8989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757A3958-44FC-4969-A261-76098DEA8989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757A3958-44FC-4969-A261-76098DEA8989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
