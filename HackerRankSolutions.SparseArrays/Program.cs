@@ -45,23 +45,23 @@ class Solution
     {
 
 
-        int stringsCount = Convert.ToInt32(Console.ReadLine().Trim());
+        int stringsCount = Convert.ToInt32(Console.ReadLine()!.Trim());
 
         List<string> strings = new List<string>();
 
         for (int i = 0; i < stringsCount; i++)
         {
-            string stringsItem = Console.ReadLine();
+            string stringsItem = Console.ReadLine()!;
             strings.Add(stringsItem);
         }
 
-        int queriesCount = Convert.ToInt32(Console.ReadLine().Trim());
+        int queriesCount = Convert.ToInt32(Console.ReadLine()!.Trim());
 
         List<string> queries = new List<string>();
 
         for (int i = 0; i < queriesCount; i++)
         {
-            string queriesItem = Console.ReadLine();
+            string queriesItem = Console.ReadLine()!;
             queries.Add(queriesItem);
         }
 
