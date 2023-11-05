@@ -87,7 +87,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6.Gaming_Array_1", "Wee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6.Forming_a_Magic_Square", "Week.Forming_a_Magic_Square\Week6.Forming_a_Magic_Square.csproj", "{757A3958-44FC-4969-A261-76098DEA8989}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6.Recursive_Digit_Sum", "Week6.Recursive_Digit_Sum\Week6.Recursive_Digit_Sum.csproj", "{211CB361-615F-4131-A9A8-9280685ECAA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6.Recursive_Digit_Sum", "Week6.Recursive_Digit_Sum\Week6.Recursive_Digit_Sum.csproj", "{211CB361-615F-4131-A9A8-9280685ECAA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6.Counter_game", "Week6.Counter_game\Week6.Counter_game.csproj", "{D6029970-4617-4B8C-92BB-7F33CF170E5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,10 @@ Global
 		{211CB361-615F-4131-A9A8-9280685ECAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{211CB361-615F-4131-A9A8-9280685ECAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{211CB361-615F-4131-A9A8-9280685ECAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6029970-4617-4B8C-92BB-7F33CF170E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6029970-4617-4B8C-92BB-7F33CF170E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6029970-4617-4B8C-92BB-7F33CF170E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6029970-4617-4B8C-92BB-7F33CF170E5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
