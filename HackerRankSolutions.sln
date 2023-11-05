@@ -91,6 +91,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6.Recursive_Digit_Sum",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6.Counter_game", "Week6.Counter_game\Week6.Counter_game.csproj", "{D6029970-4617-4B8C-92BB-7F33CF170E5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6.Sum_vs_XOR", "Week6.Sum_vs_XOR\Week6.Sum_vs_XOR.csproj", "{8D306090-242C-422C-B40D-6CD61CEDDD2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{D6029970-4617-4B8C-92BB-7F33CF170E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6029970-4617-4B8C-92BB-7F33CF170E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6029970-4617-4B8C-92BB-7F33CF170E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D306090-242C-422C-B40D-6CD61CEDDD2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D306090-242C-422C-B40D-6CD61CEDDD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D306090-242C-422C-B40D-6CD61CEDDD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D306090-242C-422C-B40D-6CD61CEDDD2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
