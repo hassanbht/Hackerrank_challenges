@@ -13,19 +13,6 @@ Returns
 Input Format
 A single integer, n.
 */
-using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
 using System.Numerics;
 
 class Result
@@ -41,7 +28,7 @@ class Result
     public static long sumXor(long n)
     {
         return n == 0 ? 1 : (long)BigInteger.Pow(2,
-            // Convert the Int64 value to a string in base toBase
+            // Convert the Value to a string in base 2
             Convert.ToString(n, 2)
             .Count(c => c == '0'));
     }
